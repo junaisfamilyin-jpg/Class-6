@@ -42,10 +42,11 @@ class A:
             return "Ob2 is less than Ob1"
 
     def __eq__(self, other):
-            if (self.a == other.a):
-                 return "Both are Equal"
-            else:
-                 return "Not Equal"
+        if (self.a == other.a):
+            return "Both are Equal"
+        else:
+            return "Not Equal"
+
 
 obj1 = A(7)
 obj2 = A(6)
